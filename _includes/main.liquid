@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{{title}}</title>
+</head>
+<body>
+	<main>{{ content }}</main>
+</body>
+</html>
+
+<style>
+  :root {
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+		--font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem); 
+    --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+
+    --color-text: hsl(12, 5%, 4%);
+    --color-bg: hsl(96, 37%, 89%);
+  }
+
+  html {
+    font-family: 'Noto Sans', -apple-system, sans-serif;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-lg);
+  }
+
+  code {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+			Bitstream Vera Sans Mono, Courier New, monospace;
+    font-size: 0.875em;
+		border: 0.1em solid hsl(17, 24%, 90%);
+		border-radius: 4px;
+		padding: 0.15em 0.25em;
+  }
+	
+  main {
+		margin: auto;
+    padding: 1em;
+		max-width: 60ch;
+	}
+
+  a {
+    color: #517742;
+  }
+</style>
