@@ -18,3 +18,4 @@ Just some links
 - <a href="https://www.computerhope.com/history/index.htm">https://www.computerhope.com/history/index.htm</a>
 - <a href="https://libreddit.spike.codes/t083l2">https://libreddit.spike.codes/t083l2</a>
 - <a href="https://www.quora.com/My-10-year-old-son-spends-way-too-much-time-coding-web-applications-on-his-computer-How-do-I-make-him-spend-his-time-doing-regular-kid-stuff-like-video-games">https://www.quora.com/My-10-year-old-son-spends-way-too-much-time-coding-web-applications-on-his-computer-How-do-I-make-him-spend-his-time-doing-regular-kid-stuff-like-video-games</a>
+- [https://libreddit.spike.codes/vbckpg](https://libreddit.spike.codes/vbckpg)
