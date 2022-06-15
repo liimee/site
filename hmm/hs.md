@@ -30,4 +30,6 @@ on("Name") {
 
 yes very weird syntax, I know
 
+oh and I don't think I'll actually make the language
+
 I'll add more stuff here probably
