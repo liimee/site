@@ -13,7 +13,7 @@ tbh, I've been thinking about making a text language thing for [Hopscotch](https
 so uh, I think I want it to be extendable (for secret blocks, etc), so I guess importing "blocks" or something would be nice so I guess something like `import(blocks.json)`. oh and I think the standard blocks should be auto-imported
 
 wait  
-haven't even figured out what the language will be written in so uh... I guess Go? if Go is too complicated I'll go with Ruby or even JS.
+haven't even figured out what the language will be written in so uh... I guess I'll try Nim? if nim is too complicated I'll go with Ruby or even JS.
 
 so uh I think the syntax will look like this
 
