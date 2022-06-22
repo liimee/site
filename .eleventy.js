@@ -3,7 +3,8 @@ const mdItFn = require('markdown-it-footnote');
 
 module.exports = function(eleventyConfig) {
   let options = {
-    linkify: true
+    linkify: true,
+    html: true
   };
 
   eleventyConfig.setLibrary("md", markdownIt(options).use(mdItFn));
