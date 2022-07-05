@@ -20,3 +20,4 @@ Just some links
 - <a href="https://www.quora.com/My-10-year-old-son-spends-way-too-much-time-coding-web-applications-on-his-computer-How-do-I-make-him-spend-his-time-doing-regular-kid-stuff-like-video-games">https://www.quora.com/My-10-year-old-son-spends-way-too-much-time-coding-web-applications-on-his-computer-How-do-I-make-him-spend-his-time-doing-regular-kid-stuff-like-video-games</a>
 - [https://libreddit.spike.codes/vbckpg](https://libreddit.spike.codes/vbckpg)
 - https://reddit.com/r/ProgrammerHumor/comments/vrdvjk/fixing_bugs_in_a_code_be_like/
+- https://www.atollski.com/bugsim/
