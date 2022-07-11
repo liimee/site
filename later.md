@@ -21,3 +21,4 @@ Just some links
 - [https://libreddit.spike.codes/vbckpg](https://libreddit.spike.codes/vbckpg)
 - https://reddit.com/r/ProgrammerHumor/comments/vrdvjk/fixing_bugs_in_a_code_be_like/
 - https://www.atollski.com/bugsim/
+- ![](/assets/windos.png)
