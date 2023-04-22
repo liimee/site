@@ -20,7 +20,7 @@ jobs:
         
         run: |
           yarn
-          openssl enc -d -in site/site/vercelconfig.enc -aes-256-cbc -pbkdf2 -pass pass:$EG -out vercel.json
+          openssl enc -d -in vercelconfig.enc -aes-256-cbc -pbkdf2 -pass pass:$EG -out vercel.json
           yarn vercel build --prod --yes
           yarn vercel deploy --prebuilt
       
