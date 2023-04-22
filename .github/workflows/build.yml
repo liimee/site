@@ -29,4 +29,4 @@ jobs:
           openssl enc -d -in vercelconfig.enc -aes-256-cbc -pbkdf2 -pass pass:$EG -out vercel.json
           yarn vercel pull --yes --environment=production --token $TOK
           yarn vercel build --prod --yes --token $TOK
-          yarn vercel deploy --prebuilt --token $TOK
+          yarn vercel deploy --prebuilt --token $TOK --prod
