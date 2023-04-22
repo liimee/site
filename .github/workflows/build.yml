@@ -1,0 +1,23 @@
+# sorry eg
+
+on:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    uses: actions/setup-node@v1
+    with:
+      node_version: 16
+    env:
+        VERCEL_CONFIG: ${{secrets.EG_BRUH}}
+    run: |
+      yarn
+      echo "$VERCEL_CONFIG" > key
+      yarn vercel build --prod --yes
+      yarn vercel deploy --prebuilt
+      
