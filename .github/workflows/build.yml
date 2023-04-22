@@ -8,11 +8,16 @@ on:
 
 jobs:
     build:
+      runs-on: ubuntu-latest
+      
       steps:
-      - name: Build
+      - name: Setup
         uses: actions/setup-node@v2.5.2
         with:
           node_version: 16
+      
+      - name: Build
+        
         run: |
           yarn
           echo "${{secrets.EG_BRUH}}" > vercel.json
