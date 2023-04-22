@@ -1,11 +1,18 @@
 const markdownIt = require("markdown-it");
-const mdItFn = require('markdown-it-footnote');
+const automaticNoopener = require('eleventy-plugin-automatic-noopener');
 
 module.exports = function (eleventyConfig) {
   let options = {
     linkify: true,
     html: true
   };
+
+  eleventyConfig.addPlugin(automaticNoopener, {
+    ignore: null,
+    elements: ['a', 'area', 'form'],
+    noopener: false,
+    noreferrer: true,
+  });
 
   const md = markdownIt(options)
 
