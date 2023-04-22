@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>{{title}}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <title>{{title}}</title>
 </head>
+
 <body>
-	<main>{{ content }}</main>
+  <main>{{ content }}</main>
 </body>
+
 </html>
 
 <style>
   :root {
     --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-		--font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem); 
+    --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
     --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
 
     --color-text: hsl(12, 5%, 4%);
@@ -21,7 +26,7 @@
   }
 
   html {
-    font-family: 'Noto Sans', -apple-system, sans-serif;
+    font-family: 'Work Sans', 'Noto Sans', -apple-system, sans-serif;
     font-size: var(--font-size-base);
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -41,8 +46,8 @@
 
   code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
-		padding: 0.15em 0.25em;
+      Bitstream Vera Sans Mono, Courier New, monospace;
+    padding: 0.15em 0.25em;
   }
 
   pre {
@@ -51,15 +56,21 @@
     background-color: hsl(95, 24%, 82%);
     padding: 1em;
   }
-	
+
   main {
-		margin: auto;
+    margin: auto;
     padding: 1em;
-		max-width: 60ch;
-	}
+    max-width: 60ch;
+  }
 
   a {
     color: #517742;
+  }
+
+  a.nevermind {
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: text;
   }
 
   table {
@@ -67,7 +78,9 @@
     text-align: center;
   }
 
-  td, th, table {
+  td,
+  th,
+  table {
     border: solid 2px #000;
     border-collapse: collapse;
   }
