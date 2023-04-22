@@ -5,6 +5,6 @@ title: need help?
 
 # Need help navigating the previous site?
 
-I'm awfully sorry about that. That must be a mistake. **Please, [click this link instead](https://electo.gq/frontpage).**
+Ah, you must have clicked the wrong button! Don't worry, just **[click this link,](https://electo.gq/frontpage)** you'll be back to the right page gracefully.
 
 Didn't work? **[Click here.](/needhelp/morehelp)**
