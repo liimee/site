@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
     return defaultRender(tokens, idx, options, env, self);
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
+  eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPassthroughCopy('assets')
 };
