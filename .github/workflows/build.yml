@@ -22,8 +22,9 @@ jobs:
       - name: Build
         env:
           EG: ${{secrets.EG_BRUH}}
+          TOK: ${{secrets.VERCEL_TOKEN}}
         run: |
           yarn
           openssl enc -d -in vercelconfig.enc -aes-256-cbc -pbkdf2 -pass pass:$EG -out vercel.json
-          yarn vercel build --prod --yes
-          yarn vercel deploy --prebuilt
+          yarn vercel build --prod --yes --token $TOK
+          yarn vercel deploy --prebuilt --token $TOK
