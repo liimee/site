@@ -7,4 +7,4 @@ title: need help?
 
 I'm awfully sorry about that. That must be a mistake. **Please, [click this link instead](https://electo.gq/frontpage).**
 
-Didn't work? **[Click here.](morehelp)**
+Didn't work? **[Click here.](/needhelp/morehelp)**
