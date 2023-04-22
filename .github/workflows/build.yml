@@ -20,7 +20,8 @@ jobs:
           node_version: 16
 
       - name: Build
-
+        with:
+          EG: ${{secrets.EG_BRUH}}
         run: |
           yarn
           openssl enc -d -in vercelconfig.enc -aes-256-cbc -pbkdf2 -pass pass:$EG -out vercel.json
