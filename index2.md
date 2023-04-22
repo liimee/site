@@ -20,7 +20,7 @@ done reading? [let's get back to the homepage!](https://electo.gq)
 
 ## want to contact me?
 
-not sure why you'd do that, but just email it here. I hope you're find with a tiny bit of javascript :)
+not sure why you'd do that, but just email it here. I hope you're fine with a tiny bit of javascript :)
 
 ```js
 `${(52710024047785).toString(34)}${(664724130).toString(34)}@${(700779688).toString(34)}.email`
