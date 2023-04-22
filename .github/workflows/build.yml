@@ -20,7 +20,7 @@ jobs:
           node_version: 16
 
       - name: Build
-        with:
+        env:
           EG: ${{secrets.EG_BRUH}}
         run: |
           yarn
