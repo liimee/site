@@ -3,24 +3,26 @@
 on:
   push:
     branches:
-    - master
+      - master
   workflow_dispatch:
 
 jobs:
-    build:
-      runs-on: ubuntu-latest
-      
-      steps:
-      - name: Setup
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+
+      - name: Setup node
         uses: actions/setup-node@v2.5.2
         with:
           node_version: 16
-      
+
       - name: Build
-        
+
         run: |
           yarn
           openssl enc -d -in vercelconfig.enc -aes-256-cbc -pbkdf2 -pass pass:$EG -out vercel.json
           yarn vercel build --prod --yes
           yarn vercel deploy --prebuilt
-      
