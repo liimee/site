@@ -25,6 +25,9 @@ jobs:
           node_version: 16
           cache: 'yarn'
 
+      - name: Deps
+        run: yarn install --frozen-lockfile
+
       - name: Build
         env:
           EG: ${{secrets.EG_BRUH}}
