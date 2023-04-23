@@ -3,7 +3,7 @@ layout: main
 title: need help?
 ---
 
-# Need help navigating the previous site?
+# <a href="/" class="nevermind">Need help navigating the previous site?</a>
 
 <div style="display:flex;gap:24px;flex-wrap:wrap-reverse">
 <div style="text-align:justify;flex:1;min-width:180px">
