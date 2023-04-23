@@ -3,13 +3,9 @@ export const config = {
 };
 
 export default function middleware(request) {
-  try {
-    if (request.headers.get('Referer') === 'https://electo.gq/') {
-      return Response.redirect(new URL('/needhelp', request.url));
-    }
-  } catch (e) {
-    if (request.headers.get('Sec-Fetch-Site') !== 'cross-site') return;
-
+  if ((!request.headers.has('Referer') && request.headers.get('Sec-Fetch-Site') !== 'cross-site') || request.headers.get('Referer') === 'https://electo.gq/') {
     return Response.redirect(new URL('/needhelp', request.url));
   }
+
+  return;
 }
